@@ -1,0 +1,162 @@
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+
+main{
+     display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.tabelaPrincipal{
+    font-family: Arial;
+    width: 100vh;
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+}
+
+td{
+    border-top: 1px solid #DDDDDD;
+    width: 20px;
+}
+
+.ColunaTitulo{
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+}
+
+.posicao{
+    font-size: 18px;
+    color: #003366;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+.posicao1{
+    font-size: 18px;
+    color:#1398BE;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+.posicao2{
+    font-size: 18px;
+    color: #DE9800;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+.posicao3{
+    font-size: 18px;
+    color: #CCCCCC;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+.posicao4{
+    font-size: 18px;
+    color: #C91B04;
+    text-align: center;
+    font-weight: bold;
+    
+    
+
+}
+
+.nome{
+    font-size: 14px;
+    color:  #666666;
+    text-align: start;
+    font-weight: bold;
+    
+}
+
+.pontos{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f7f7f7;
+}
+
+.OutrasColunas{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    
+
+}
+.CorFundo{
+    background-color: #f7f7f7;
+    
+}
+
+.separar{
+    border-top: 2px solid #CCCCCC;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.legenda{
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: start;
+    margin: 5px;
+
+}
+.cor{
+    width: 5px;
+    height: 5px;
+    background-color: #003366;
+    border: 2px solid #003366;
+    margin: 5px;
+}
+.corP{
+    width: 5px;
+    height: 5px;
+    background-color: #1398BE;
+    border: 2px solid #1398BE;
+    margin: 5px;
+}
+.corS{
+    width: 5px;
+    height: 5px;
+    background-color: #DE9800;
+    border: 2px solid #DE9800;
+    margin: 5px;
+}
+.corR{
+    width: 5px;
+    height: 5px;
+    background-color: #C91B04;
+    border: 2px solid #C91B04;
+    margin: 5px;
+    
+}
+.sigla{
+    font-size: 10px;
+    color: #555555;
+    text-align: start;
+    
+   
+}
+
+.borda{
+    border-top: transparent;
+}
+
+.totalPontos{
+    background-color: #f7f7f7;
+    width: 15px;
+}
